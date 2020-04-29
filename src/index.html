@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>LanGong</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <style>
+        .down{
+  text-align: center;
+}
+    </style>
+    </head>
+  <body>
+      <script type="text/javascript">
+      function openmain(){
+        window.open ("https://langong-dev.github.io/", "LanGong", "fullscreen=1,height=500, width=700, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
+      }
+      function openmain_ch(){
+        window.open ("https://langong-dev.github.io/ch/", "LanGong", "fullscreen=1,height=500, width=700, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
+      }
+      function openblog() {
+        window.open ("https://langonginc.github.io/", "Blog", "fullscreen=1,height=500, width=700, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
+      }
+      function opengithub() {
+        window.open ("https://github.com/langong-dev/", "GitHub", "fullscreen=1,height=500, width=700, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
+      }
+      </script>
+      <center>
+        <h1>LanGong</h1>
+       <img src="logo.png" width="55%">
+       <hr width="95%">
+      </center>
+      <br>
+      <div class="down">
+        <table align="center">
+          <tr><td>
+            <center>
+              <h4>English</h4>
+              <table>
+                <tr>
+                  <td><button onclick="openmain()"> > LanGong Home </button></td>
+                </tr><tr>
+                  <td><button onclick="openblog()"> > LanGong Blog </button></td>
+                </tr>
+              </table>
+            </center>
+           </td><td>   
+            <center>
+              <h4>简体中文</h4>
+              <table>
+                <tr>
+                  <td><button onclick="openmain_ch()"> > LanGong 首页 </button></td>
+                </tr><tr>
+                  <td><button onclick="openblog()"> > LanGong 博客 </button></td>
+                </tr>
+              </table>
+            </center>
+          </td><td>  </td><td>
+            <center>
+              <h3>We are LanGong</h3>
+              <span>LanGong Develope Team.</span><br>
+              <span>We like programming and we believe "<b>open source</b>" is a good thing.</span><br>
+              <span>We share open source programmes on <a href="" onclick="opengithub()">GitHub</a>.</span>
+            </center>
+          </td></tr>
+        </table>
+      </div>
+  </body>
+</html>

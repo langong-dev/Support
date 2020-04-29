@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=LanGong
 Type=Application
-Exec=npm start /tmp/LanGong/
-Icon=/tmp/LanGong/icon.png
+Exec=npm start /bin/LanGong/
+Icon=/bin/LanGong/icon.png
 Categories=Development

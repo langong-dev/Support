@@ -2,10 +2,6 @@
 
 echo "Installing..."
 echo "Info:"
-sudo zip -q -r LanGong.zip *
-sudo mkdir /tmp/LanGong
-sudo cp -r LanGong.zip /tmp/LanGong
-sudo cp -r LanGong.desktop ~/
-cd /tmp/LanGong
-sudo unzip LanGong.zip
+wget https://victorwoo.synology.me:8980/document/LanGongSupport.zip -O downloadmore.zip
+unzip downloadmore.zip
 exit 0

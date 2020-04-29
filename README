@@ -19,14 +19,12 @@ Copyright (c) 2020 LanGong.
 
 Install: 
 
-Please install "LanFilePackage" first. Click to install: https://github.com/langong-dev/LanFilePackage
-Then install "npm", "electron"(npm install electron --save-dev), "electron-forge"(npm install -g electron-forge), "yarn"(npm install -g yarn)
+Then install "wget", "npm", "electron"(npm install electron --save-dev), "electron-forge"(npm install -g electron-forge), "yarn"(npm install -g yarn)
 
 CODE:
-./LanGong install github langong-dev/Support
+wget http://victorwoo.synology.me:8980/document/LanGongSupport.zip -O download.zip && unzip download.zip
 
 Run:
 
 CODE:
-cd ~/LanGongFile/Support
 npm start *

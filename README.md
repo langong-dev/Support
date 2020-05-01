@@ -22,7 +22,7 @@ Copyright (c) 2020 LanGong.
 ![](https://img.shields.io/github/tag/langong-dev/Support.svg)
 ![](https://img.shields.io/github/release/langong-dev/Support.svg)
 ![](https://img.shields.io/github/stars/langong-dev/Support.svg)
-![](https://ghbtns.com/github-btn.html?user=langong-dev&repo=Support&type=follow&count=true)
+![follow](https://ghbtns.com/github-btn.html?user=langong-dev&repo=Support&type=follow&count=true)
 
 
 # Install: 

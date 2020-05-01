@@ -20,6 +20,9 @@ Copyright (c) 2020 LanGong.
 ```
 
 ![](https://img.shields.io/github/tag/langong-dev/Support.svg)
+![](https://img.shields.io/github/release/langong-dev/Support.svg)
+![](https://img.shields.io/github/star/langong-dev/Support.svg)
+
 
 # Install: 
 

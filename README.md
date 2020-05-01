@@ -24,6 +24,7 @@ Copyright (c) 2020 LanGong.
 ![](https://img.shields.io/github/stars/langong-dev/Support.svg)
 ![](https://img.shields.io/github/forks/langong-dev/Support.svg)
 ![](https://img.shields.io/badge/state-Service-brightgreen.svg?style=plastic)
+![](https://img.shields.io/badge/GitHub-langong-dev-yellow.svg?style=social&logo=github)
 
 
 # Install: 

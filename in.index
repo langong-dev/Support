@@ -1,3 +1,7 @@
 fun(){
+	echo "Updating"
+	git pull	
+	echo
+	echo "Starting App"
 	npm start *
 }

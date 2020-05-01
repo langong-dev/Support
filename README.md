@@ -1,4 +1,4 @@
-
+```
  __                             ____________
 /  \                           /            \
 |  |                           |   ______   |
@@ -15,17 +15,22 @@
 /                                                                            |
 \____________________________________________________________________________/
 
-Copyright (c) 2020 LanGong.
 
-Install: 
+Copyright (c) 2020 LanGong.
+```
+
+
+# Install: 
 
 Install "LanFilePackage" first. https://github.com/langong-dev/LanFilePackage/
 Then install "node", "npm", "electron"(npm install electron --save-dev).
 
-CODE:
-  ./LanGong install github langong-dev/Support
+```bash
+./LanGong install github langong-dev/Support
+```
 
-Run:
+# Run:
 
-CODE:
-  ./LanGong run Support
+```bash
+./LanGong run Support
+```

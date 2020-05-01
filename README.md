@@ -23,7 +23,6 @@ Copyright (c) 2020 LanGong.
 ![](https://img.shields.io/github/release/langong-dev/Support.svg)
 ![](https://img.shields.io/github/stars/langong-dev/Support.svg)
 ![](https://img.shields.io/github/forks/langong-dev/Support.svg)
-
 ![](https://img.shields.io/badge/state-Service-brightgreen.svg?style=plastic)
 
 

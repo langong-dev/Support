@@ -30,6 +30,7 @@ Copyright (c) 2020 LanGong.
 # Install: 
 
 Install "LanFilePackage" first. https://github.com/langong-dev/LanFilePackage/
+
 Then install "node", "npm", "electron"(npm install electron --save-dev).
 
 ```bash

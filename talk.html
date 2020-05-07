@@ -1,12 +1,14 @@
 <html>
   <head>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+	<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+   <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>-->
+   <link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
+	<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
   </head>
   <body>
     <div id="gitalk-container"></div>     
 <script type="text/javascript">
-    var gitalk = new Gitalk({
+    /*var gitalk = new Gitalk({
       clientID: `d519c45926586d3e5270`,   //上面获取到的值
       clientSecret: `f93847f0358aff176fe620ea7912936a4623604b`,//上面获取到的值
       repo: `Support`,  //您刚才建立仓库的名字
@@ -15,7 +17,21 @@
       id: (location.pathname).substring(0, 49), //id不能重复，如果重复就会把其他页面的评论引进来
 		distractionFreeMode: true
         });
+	gitalk.render('gitalk-container');
+	*/
+	var gitalk = new Gitalk({
+        clientID: 'd519c45926586d3e5270',
+        clientSecret: 'f93847f0358aff176fe620ea7912936a4623604b',
+        accessToken: '6a2f4d91a1f188a2089e70c2a7b63628f3e9e664',
+        repo: 'fpo.github.io',
+        owner: 'langonginc',
+        admin: ['langonginc'],
+		  //id: (location.pathname).substring(0, 49),
+        id: 'Demo',
+        distractionFreeMode: true
+      });
       gitalk.render('gitalk-container');
+      
 </script> 
   </body>
 </html>
